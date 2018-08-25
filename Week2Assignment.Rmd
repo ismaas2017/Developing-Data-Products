@@ -1,0 +1,24 @@
+---
+title: "My biography"
+author: "Ismail HASSAN DJILAL"
+date: "24 août 2018"
+output: ioslides_presentation
+---
+## My Adress
+```{r setup, echo=FALSE}
+library(leaflet)
+my_app<-leaflet()%>% addTiles%>%addMarkers(lat=44.968555, lng=-93.248199, popup = "Ismail H. Djilal's Home")
+my_app
+```
+
+## Who I am 
+
+My name is Ismail Hassan Djilal. For two years I live in the United States. I am currently pursuing asuidite training in Data Science Specialization offered by John Hopkins University through https://www.coursera.org/>.
+
+
+## My goals
+
+- Finish Data Science Specialization
+- Find a job in the field of Data Science
+- Have fun with family and friends
+
